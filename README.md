@@ -178,7 +178,7 @@ del Reino Unido proporciona datos climáticos históricos detallados, incluyendo
 
 #### Estructura del dataset
 
-<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/dim_clima.png)</p>
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/dim_clima.png)
 
 <p><strong>id_clima:</strong> clave principal.</p>
 <p><strong>mes:</strong> mes calendario.</p>
@@ -211,7 +211,7 @@ del crimen y la descripción del crimen, la dimensión por distrito y la dimensi
 
 ## MODELO DE DATOS
 
-<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/Modelo_Estrella_delitos_Londres.png)</p>
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/Modelo_Estrella_delitos_Londres.png)
 
 ## TRANSFORMACIÓN Y CARGA DE DATOS
 
@@ -232,7 +232,7 @@ SELECT
 order by id_dim_crimen;
 ```
 
-<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/dim_crimen.png)</p>
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/dim_crimen.png)
 
 
 
@@ -279,7 +279,7 @@ FROM
 group by borough, major_category, minor_category, year, month
 order by borough);
 ```
-<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/crimenes_londres.png)</p>
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/crimenes_londres.png)
 
 <p>2.- Luego con la segunda transformación, se mapearon las dimensiones dim_crimen, dim_calendario, dim_distrito, dim_clima y dim_calendario (se terminará mapenado en Power BI)</p>
 
@@ -304,17 +304,17 @@ crim.categoria = f.tipo_crimen AND crim.crimen = f.categoria
 );
 ```
 
-<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/fact_crimenes_londres.png)</p>
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/fact_crimenes_londres.png)
 
 
 ## FLUJO DE DATOS
 
 
-<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/flujo_de_datos.png)</p>
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/flujo_de_datos.png)
 
 #### Carga de datos en Power BI
 
-<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/carga_power_bi.png)</p>
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/carga_power_bi.png)
 
 ## CONSTRUCCIÓN DE MÉTRICAS EN POWER BI
 
