@@ -202,7 +202,7 @@ con un enfoque particular en la reducción de la delincuencia y, especialmente, 
 <p>Se realiza un plan de métricas amplio que permita ver en los reportes la incidencia de los delitos con más ocurrencia con especial énfasis en los delitos violentos, 
 sus distribuciones temporales y espaciales, comportamientos frente a las distintas estaciones del año y por distrito.</p>
 
-<p><a href=https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/Plan_de_metricas_crimenes_en_Londres_18_12.xlsx>Plan de Métricas</a></p>
+<p> Descarga del <a href=https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/Plan_de_metricas_crimenes_en_Londres_18_12.xlsx>Plan de Métricas</a></p>
 
 <p>Para poder desarrollar las métricas planteadas se creo una tabla de hechos con la cantidad de crímenes por distrito, fecha y categoría del crimen.
 
