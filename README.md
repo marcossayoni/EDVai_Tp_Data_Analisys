@@ -117,7 +117,7 @@ categorías principales y sus subcategorías:</p>
 
 #### Estructura del dataset
 
-<p>(link github de la imagen del dataset crime_by_lsoa)</p>
+<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/crime_by_lsoa.png)</p>
 
 <p><strong>lsoa_code:</strong> LSOA significa <strong>Lower Layer Super Output Area</strong>, 
 que es una unidad geográfica utilizada en Inglaterra y Gales para analizar 
@@ -160,7 +160,7 @@ Estas transformaciones fueron realizadas localmente antes de cargar el dataset a
 
 #### Estructura del dataset
 
-<p>(link github de la imagen del dataset dim_ditrito)</p>
+<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/dim_crimen.png)</p>
 
 <p><strong>id_distrito:</strong> clave principal.</p>
 <p><strong>distrito:</strong> distrito de Londres.</p>
@@ -178,7 +178,7 @@ del Reino Unido proporciona datos climáticos históricos detallados, incluyendo
 
 #### Estructura del dataset
 
-<p>(link github de la imagen del dataset dim_clima)</p>
+<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/dim_clima.png)</p>
 
 <p><strong>id_clima:</strong> clave principal.</p>
 <p><strong>mes:</strong> mes calendario.</p>
@@ -202,7 +202,7 @@ con un enfoque particular en la reducción de la delincuencia y, especialmente, 
 <p>Se realiza un plan de métricas amplio que permita ver en los reportes la incidencia de los delitos con más ocurrencia con especial énfasis en los delitos violentos, 
 sus distribuciones temporales y espaciales, comportamientos frente a las distintas estaciones del año y por distrito.</p>
 
-<p>Link al plan de métricas</p>
+<p><a href=https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/Plan_de_metricas_crimenes_en_Londres_18_12.xlsx>Plan de Métricas</a></p>
 
 <p>Para poder desarrollar las métricas planteadas se creo una tabla de hechos con la cantidad de crímenes por distrito, fecha y categoría del crimen.
 
@@ -211,7 +211,7 @@ del crimen y la descripción del crimen, la dimensión por distrito y la dimensi
 
 ## MODELO DE DATOS
 
-<p>Link al modelo de datos</p>
+<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/Modelo_Estrella_delitos_Londres.png)</p>
 
 ## TRANSFORMACIÓN Y CARGA DE DATOS
 
@@ -231,6 +231,11 @@ SELECT
 )
 order by id_dim_crimen;
 ```
+
+<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/dim_crimen.png)</p>
+
+
+
 <p>Para la creación de las dimensiones <strong>dim_distritos</strong></p>
 
 <p>Se descargo la información de Wikipedia a un Excel y se conformó el csv con la estructura mencionada y se importó a Bigquery.</p>
@@ -274,7 +279,7 @@ FROM
 group by borough, major_category, minor_category, year, month
 order by borough);
 ```
-<p>Link a la imagen de la tabla crimen_london</p>
+<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/crimenes_londres.png)</p>
 
 <p>2.- Luego con la segunda transformación, se mapearon las dimensiones dim_crimen, dim_calendario, dim_distrito, dim_clima y dim_calendario (se terminará mapenado en Power BI)</p>
 
@@ -299,15 +304,17 @@ crim.categoria = f.tipo_crimen AND crim.crimen = f.categoria
 );
 ```
 
-<p>Link a la imagen de la tabla fact_crimenes_londres</p>
+<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/fact_crimenes_londres.png)</p>
+
 
 ## FLUJO DE DATOS
 
-<p>Link a la imagen del flujo de datos</p>
+
+<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/flujo_de_datos.png)</p>
 
 #### Carga de datos en Power BI
 
-<p>Link a la imagen de la carga de datos en Power BI</p>
+<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/carga_power_bi.png)</p>
 
 ## CONSTRUCCIÓN DE MÉTRICAS EN POWER BI
 
@@ -369,7 +376,7 @@ DIVIDE(
 	SUM('dim_distrito'[superficie_km2])
 )
 ```
-<p><strong>5.- Tasa de delitos violentos cada 1000 habitantes.</strong></p>
+<p><strong>5.- Tasa de delitos no violentos cada 1000 habitantes.</strong></p>
 
 <p><strong>Propósito:</strong> Identificar distritos con mayor incidencia de delitos no violentos en relación a su población y para compararlos contra los violentos. </p>
 
