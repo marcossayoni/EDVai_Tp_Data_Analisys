@@ -117,7 +117,7 @@ categorías principales y sus subcategorías:</p>
 
 #### Estructura del dataset
 
-<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/crime_by_lsoa.png)</p>
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/crime_by_lsoa.png)
 
 <p><strong>lsoa_code:</strong> LSOA significa <strong>Lower Layer Super Output Area</strong>, 
 que es una unidad geográfica utilizada en Inglaterra y Gales para analizar 
