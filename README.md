@@ -160,7 +160,7 @@ Estas transformaciones fueron realizadas localmente antes de cargar el dataset a
 
 #### Estructura del dataset
 
-<p>![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/dim_crimen.png)</p>
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/dim_crimen.png)
 
 <p><strong>id_distrito:</strong> clave principal.</p>
 <p><strong>distrito:</strong> distrito de Londres.</p>
@@ -235,7 +235,6 @@ order by id_dim_crimen;
 ![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/dim_crimen.png)
 
 
-
 <p>Para la creación de las dimensiones <strong>dim_distritos</strong></p>
 
 <p>Se descargo la información de Wikipedia a un Excel y se conformó el csv con la estructura mencionada y se importó a Bigquery.</p>
@@ -245,7 +244,7 @@ order by id_dim_crimen;
 <p>Se descargo la información del sitio <a href="https://www.metoffice.gov.uk/research/climate/maps-and-data"> 
 Met Office</a> a un Excel y se conformó el csv con la estructura mencionada y se importó a Bigquery.</p>
 
-<p>DAX de la dimensión <strong>dim_calendario</strong></p>
+<p><strong>DAX de la dimensión <strong>dim_calendario</strong></p>
 
 <p>Esta dimensión se generó directamente en Power BI, ya que solo se usará para este proyecto</p>
 
@@ -265,6 +264,7 @@ CALENDAR ( DATE( 2008,1,1), DATE( 2016, 12, 31 ) ),
 <p>Generación de la tabla de hechos <strong>fact_crimenes_londres</strong>, esta tabla va a contener la cantidad de crimenes por distrito, categoria, fecha y delito.</p>
 
 <p>1.- Primera transformación, se descartó el campo lsoa_code se y agrupo por distrito, año, mes, categoría del crimen y crimen.</p> 
+
 ```sql
 create or replace TABLE london_crime_clean.crimenes_londres AS
 (SELECT
@@ -279,6 +279,7 @@ FROM
 group by borough, major_category, minor_category, year, month
 order by borough);
 ```
+
 ![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/crimenes_londres.png)
 
 <p>2.- Luego con la segunda transformación, se mapearon las dimensiones dim_crimen, dim_calendario, dim_distrito, dim_clima y dim_calendario (se terminará mapenado en Power BI)</p>
@@ -331,8 +332,8 @@ DIVIDE(
     SUM(dim_distrito[poblacion])
 ) * 1000
 ```
-<p><strong>Propósito:</strong> Identificar distritos con mayor incidencia de crímenes violentos en relación a su población. </p>
 
+<p><strong>Propósito:</strong> Identificar distritos con mayor incidencia de crímenes violentos en relación a su población. </p>
 
 <p><strong>2.- Cantidad de delitos </strong> </p>
 
