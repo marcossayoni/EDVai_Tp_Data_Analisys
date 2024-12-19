@@ -426,8 +426,10 @@ DIVIDE(
 <p>De la hipótesis que planteaba que una mayor densidad poblacional podría incidir en el aumento de la cantidad de delitos violentos, 
 se concluye que esta afirmación no es completamente correcta. En los reportes de diversidad de delitos y delitos violentos, 
 se observa que en algunos distritos más densamente poblados esta relación se cumple, pero en otros no.</p>
-![alt text] (https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/correlacion_densidad_delitos_violentos.png)
-![alt text] (https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/correlacion_densidad_delitos_violentos_2.png)
+
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/correlacion_densidad_delitos_violentos.png)
+
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/correlacion_densidad_delitos_violentos_2.png)
 
 <p>Esto podría deberse a factores como mejores condiciones de seguridad o infraestructura en ciertos distritos, lo que los hace excepciones. 
 Este aspecto podría ser un caso de estudio para aplicar mejoras en otros distritos.</p>
