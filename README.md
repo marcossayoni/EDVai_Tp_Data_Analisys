@@ -1,7 +1,7 @@
 # Análisis de delitos en la ciudad de Londres
 <p>Trabajo Final EDVai - Data Analyst BootCamp - Diciembre 2024.</p>
 <p>Autor: Marcos E. Sayoni</p>
-<p><a href "https://www.linkedin.com/in/marcos-sayoni-67b938a/" target="_blank">linkedin Marcos Sayoni</a></p>
+<p><a href="https://www.linkedin.com/in/marcos-sayoni-67b938a/" target="_blank" rel="noopener noreferrer">linkedin Marcos Sayoni</a></p>
 
 ## Contenido
 
@@ -32,7 +32,7 @@ Los datasets provienen de diferentes fuentes:
   <li><strong>Crímenes en Londres:</strong> extraído de los datos públicos de Google Cloud en Big Query Public Data.</li>
   <li><strong>Distritos de Londres:</strong> obtenido de Wikipedia.</li>
   <li><strong>Clima promedio en Londres:</strong> basado en referencias climáticas 
-del sitio<a href="https://www.metoffice.gov.uk/research/climate/maps-and-data" target="_blank"> 
+del sitio<a href="https://www.metoffice.gov.uk/research/climate/maps-and-data" target="_blank" rel="noopener noreferrer"> 
 Met Office</a>.</li>
 </ol>
 
@@ -202,7 +202,7 @@ con un enfoque particular en la reducción de la delincuencia y, especialmente, 
 <p>Se realiza un plan de métricas amplio que permita ver en los reportes la incidencia de los delitos con más ocurrencia con especial énfasis en los delitos violentos, 
 sus distribuciones temporales y espaciales, comportamientos frente a las distintas estaciones del año y por distrito.</p>
 
-<p> Descarga del <a href=https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/Plan_de_metricas_crimenes_en_Londres_18_12.xlsx>Plan de Métricas</a></p>
+<p> Descarga del <a href="https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/Plan_de_metricas_crimenes_en_Londres_18_12.xlsx" target="_blank" rel="noopener noreferrer">Plan de Métricas</a></p>
 
 <p>Para poder desarrollar las métricas planteadas se creo una tabla de hechos con la cantidad de crímenes por distrito, fecha y categoría del crimen.
 
@@ -241,7 +241,7 @@ order by id_dim_crimen;
 
 <p>Para la creación de las dimensiones <strong>dim_clima</strong></p>
 
-<p>Se descargo la información del sitio <a href="https://www.metoffice.gov.uk/research/climate/maps-and-data" target="_blank"> 
+<p>Se descargo la información del sitio <a href="https://www.metoffice.gov.uk/research/climate/maps-and-data" target="_blank" rel="noopener noreferrer"> 
 Met Office</a> a un Excel y se conformó el csv con la estructura mencionada y se importó a Bigquery.</p>
 
 <p><strong>DAX de la dimensión <strong>dim_calendario</strong></p>
@@ -464,5 +464,5 @@ alcanzando su mínimo en 2014. Posteriormente, los delitos volvieron a aumentar 
 
 ## REPORTE DE POWER BI
 
-<p> <a href="https://app.powerbi.com/view?r=eyJrIjoiNTYzZDcyNTMtMmMyYy00NjM4LWEwZWMtNGE5MTI2NzQ1ZTc0IiwidCI6ImNkMDY0NzkyLWFiZjEtNDJiYy1iMjBkLWJmMDg5NGU1MzkwMSIsImMiOjR9&pageName=483be0d2860d780a0826" target="_blank">
+<p> <a href="https://app.powerbi.com/view?r=eyJrIjoiNTYzZDcyNTMtMmMyYy00NjM4LWEwZWMtNGE5MTI2NzQ1ZTc0IiwidCI6ImNkMDY0NzkyLWFiZjEtNDJiYy1iMjBkLWJmMDg5NGU1MzkwMSIsImMiOjR9&pageName=483be0d2860d780a0826" target="_blank" target="_blank" rel="noopener noreferrer">
 Crimenes en la ciudad de Londres</a> </p>
