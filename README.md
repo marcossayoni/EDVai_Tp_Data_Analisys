@@ -1,7 +1,7 @@
 # Análisis de delitos en la ciudad de Londres
-Trabajo Final EDVai - Data Analyst BootCamp - Diciembre 2024.
-Autor: Marcos E. Sayoni
-https://www.linkedin.com/in/marcos-sayoni-67b938a/
+<p>Trabajo Final EDVai - Data Analyst BootCamp - Diciembre 2024.</p>
+<p>Autor: Marcos E. Sayoni</p>
+<p>https://www.linkedin.com/in/marcos-sayoni-67b938a/</p>
 
 ## Contenido
 
