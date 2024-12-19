@@ -1,7 +1,7 @@
 # Análisis de delitos en la ciudad de Londres
 <p>Trabajo Final EDVai - Data Analyst BootCamp - Diciembre 2024.</p>
 <p>Autor: Marcos E. Sayoni</p>
-<p>https://www.linkedin.com/in/marcos-sayoni-67b938a/</p>
+<p><a href "https://www.linkedin.com/in/marcos-sayoni-67b938a/" target="_blank">linkedin Marcos Sayoni</a>a></p>
 
 ## Contenido
 
@@ -32,7 +32,7 @@ Los datasets provienen de diferentes fuentes:
   <li><strong>Crímenes en Londres:</strong> extraído de los datos públicos de Google Cloud en Big Query Public Data.</li>
   <li><strong>Distritos de Londres:</strong> obtenido de Wikipedia.</li>
   <li><strong>Clima promedio en Londres:</strong> basado en referencias climáticas 
-del sitio<a href="https://www.metoffice.gov.uk/research/climate/maps-and-data"> 
+del sitio<a href="https://www.metoffice.gov.uk/research/climate/maps-and-data" target="_blank"> 
 Met Office</a>.</li>
 </ol>
 
@@ -241,7 +241,7 @@ order by id_dim_crimen;
 
 <p>Para la creación de las dimensiones <strong>dim_clima</strong></p>
 
-<p>Se descargo la información del sitio <a href="https://www.metoffice.gov.uk/research/climate/maps-and-data"> 
+<p>Se descargo la información del sitio <a href="https://www.metoffice.gov.uk/research/climate/maps-and-data" target="_blank"> 
 Met Office</a> a un Excel y se conformó el csv con la estructura mencionada y se importó a Bigquery.</p>
 
 <p><strong>DAX de la dimensión <strong>dim_calendario</strong></p>
@@ -464,5 +464,5 @@ alcanzando su mínimo en 2014. Posteriormente, los delitos volvieron a aumentar 
 
 ## REPORTE DE POWER BI
 
-<p> <a href="https://app.powerbi.com/view?r=eyJrIjoiNTYzZDcyNTMtMmMyYy00NjM4LWEwZWMtNGE5MTI2NzQ1ZTc0IiwidCI6ImNkMDY0NzkyLWFiZjEtNDJiYy1iMjBkLWJmMDg5NGU1MzkwMSIsImMiOjR9&pageName=483be0d2860d780a0826">
+<p> <a href="https://app.powerbi.com/view?r=eyJrIjoiNTYzZDcyNTMtMmMyYy00NjM4LWEwZWMtNGE5MTI2NzQ1ZTc0IiwidCI6ImNkMDY0NzkyLWFiZjEtNDJiYy1iMjBkLWJmMDg5NGU1MzkwMSIsImMiOjR9&pageName=483be0d2860d780a0826" target="_blank">
 Crimenes en la ciudad de Londres</a> </p>
