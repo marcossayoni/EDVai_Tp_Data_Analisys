@@ -398,3 +398,64 @@ DIVIDE(
 ```DAX
 006 #temperatura promedio mes = SUM(dim_clima[temperatura_media])
 ```
+
+##DESARROLLO DE REPORTES
+
+<p>Se construyeron 3 reportes que analizan los delitos comentidos en los 33 distritos de la ciudad de Londres entre los años 2008 y 2016 </p>
+
+#### Reporte Delitos Generales
+
+<p>Descripción general de los delitos. Su objetivo es mostrar la distribución de los mismos, cuales son los mas frecuentes y si existe alguna tendencia bajo condiciones estacionales y climáticas.</p>
+
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/reporte_delitos_generales.png)
+
+#### Reporte Diversidad de Delitos
+
+<p>Su objetivo es ver como es la dispersión de delitos y si existe alguna correlación entre cantidad total vs su diversidad por categoría de delito. También la incidencia de delitos en función de la estacionalidad.</p>
+
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/reporte_diversidad_de_delitos.png)
+
+#### Reporte Delitos Violentos
+
+<p>Su objetivo es mostrar los delitos violentos, estos tienen una gran importancia para la aplicación de políticas de seguridad, ya que son los que más daño causan a las personas y es el segundo delito más frecuente.</p>
+
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/reporte_delitos_violentos.png)
+
+##CONCLUSIÓN
+
+<p>De la hipótesis que planteaba que una mayor densidad poblacional podría incidir en el aumento de la cantidad de delitos violentos, 
+se concluye que esta afirmación no es completamente correcta. En los reportes de diversidad de delitos y delitos violentos, 
+se observa que en algunos distritos más densamente poblados esta relación se cumple, pero en otros no.</p>
+![alt text] (https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/correlacion_densidad_delitos_violentos.png)
+![alt text] (https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/correlacion_densidad_delitos_violentos_2.png)
+
+<p>Esto podría deberse a factores como mejores condiciones de seguridad o infraestructura en ciertos distritos, lo que los hace excepciones. 
+Este aspecto podría ser un caso de estudio para aplicar mejoras en otros distritos.</p>
+
+<p>Se identifican dos categorías de delitos que predominan sobre el resto: "Theft and Handling" (robo y distribución) 
+y "Violence against the Person" (violencia contra personas). A pesar de esta predominancia, el índice de diversidad de delitos es alto, 
+lo que implica que otras categorías también tienen relevancia, aunque con menor influencia. Este último aspecto se visualiza 
+en los gráficos de cantidades por categoría y diversidad de delitos por año.</p>
+
+<p>En el reporte general, se observa que la mayor cantidad de delitos se concentra en los distritos del centro de la ciudad de Londres.</p>
+
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/cantidad_delitos_x_categoria_mapa.png)
+
+<p>Asimismo, se detecta poca influencia de las estaciones climáticas en la cantidad de delitos, ya que esta se mantiene estable, 
+como se muestra en el gráfico de torta.</p>
+
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/deltios_x_estacion_anio.png)
+
+<p>Finalmente, se observa una variación en la cantidad de delitos a lo largo de los años analizados. En 2008 se registró 
+el nivel más alto de delitos, seguido de una disminución del 3% en años posteriores. Sin embargo, en 2012 hubo un aumento 
+que alcanzó niveles similares a los de 2008. Luego, en los dos años siguientes, los delitos disminuyeron aproximadamente un 8%, 
+alcanzando su mínimo en 2014. Posteriormente, los delitos volvieron a aumentar en 2016, alcanzando niveles similares a los de 2012.</p>
+
+![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/cantidad_delitos_x_anio.png)
+
+<p>Por lo tanto, se destacan los siguientes puntos clave:</p>
+
+<p>1.- No hay una correlación consistente entre densidad poblacional y cantidad de delitos violentos: algunos distritos muestran una relación, pero otros no.</p>
+<p>2.- No existe relación significativa entre las estaciones del año y la cantidad de delitos.</p>
+<p>3.- La mayor concentración de delitos ocurre en los distritos del centro de Londres.</p>
+<p>4.- Sería importante investigar las causas de la disminución de delitos en los años señalados y evaluar su aplicabilidad en el futuro.</p>
