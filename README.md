@@ -15,7 +15,7 @@
 - [CONSTRUCCIÓN DE MÉTRICAS EN POWER BI](#CONSTRUCCIÓN-DE-MÉTRICAS-EN-POWER-BI)
 - [DESARROLLO DE DASHBOARDS](#DESARROLLO-DE-DASHBOARDS)
 - [CONCLUSIÓN](#CONCLUSIÓN)
-- [LINKS](#LINKS)
+- [REPORTE DE POWER BI](#REPORTE-DE-POWER-BI)
 
 ## INTRODUCCIÓN
 
@@ -461,3 +461,8 @@ alcanzando su mínimo en 2014. Posteriormente, los delitos volvieron a aumentar 
 <p>2.- No existe relación significativa entre las estaciones del año y la cantidad de delitos.</p>
 <p>3.- La mayor concentración de delitos ocurre en los distritos del centro de Londres.</p>
 <p>4.- Sería importante investigar las causas de la disminución de delitos en los años señalados y evaluar su aplicabilidad en el futuro.</p>
+
+## REPORTE DE POWER BI
+
+<p> <a href="https://app.powerbi.com/reportEmbed?reportId=bfc61ea9-0427-4026-8e2f-cdca20a1e741&autoAuth=true&ctid=b41ac89a-6984-4110-853b-f6f558dee7d4>
+Crimenes en la ciudad de Londres</a> </p>
