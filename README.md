@@ -399,7 +399,7 @@ DIVIDE(
 006 #temperatura promedio mes = SUM(dim_clima[temperatura_media])
 ```
 
-##DESARROLLO DE REPORTES
+## DESARROLLO DE REPORTES
 
 <p>Se construyeron 3 reportes que analizan los delitos comentidos en los 33 distritos de la ciudad de Londres entre los años 2008 y 2016 </p>
 
@@ -421,7 +421,7 @@ DIVIDE(
 
 ![alt text](https://github.com/marcossayoni/EDVai_Tp_Data_Analisys/blob/main/imagenes/reporte_delitos_violentos.png)
 
-##CONCLUSIÓN
+## CONCLUSIÓN
 
 <p>De la hipótesis que planteaba que una mayor densidad poblacional podría incidir en el aumento de la cantidad de delitos violentos, 
 se concluye que esta afirmación no es completamente correcta. En los reportes de diversidad de delitos y delitos violentos, 
